@@ -1,0 +1,17 @@
+{
+	"name": "markdowncompiler",
+	"version": "1.0.0",
+	"description": "Compiles files such as \"lib.js.md\" to \"lib.js\" by extracting code blocks from the markdown.",
+	"main": "index.js",
+	"scripts": {
+		"build": "tsc && node ./dist/MarkdownCompiler.js ./src && tsc"
+	},
+	"author": "",
+	"license": "MIT",
+	"devDependencies": {
+		"@types/node": "^20.4.2"
+	},
+	"bin": {
+		"mdc": "dist/MarkdownCompiler.js"
+	}
+}
