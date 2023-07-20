@@ -9,9 +9,14 @@
 	"author": "",
 	"license": "MIT",
 	"devDependencies": {
+		"@types/ignore-walk": "^4.0.0",
 		"@types/node": "^20.4.2"
 	},
 	"bin": {
 		"mdc": "dist/MarkdownCompiler.js"
+	},
+	"dependencies": {
+		"ignore-walk": "^6.0.3",
+		"yaml": "^2.3.1"
 	}
 }
